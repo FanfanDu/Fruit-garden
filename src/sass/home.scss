@@ -1,0 +1,62 @@
+$fontSize:14px;
+
+// 引入外部sass文件
+@import 'var';
+
+body{margin:0;font-size:$fontSize;}
+a{color:$mainColor;}
+
+//重置样式
+ul{list-style:none;padding:0;margin:0;}
+
+
+// 全局变量
+$pd:15px 15px 10px 5px;
+$left:left;
+
+.carousel{
+	//局部变量
+	$pd:5px;
+
+	//在局部设置全局变量
+	$color:#fff !global;
+
+	// 特殊变量用法
+	border-#{$left}:10px;
+
+	// 多值变量的使用
+	padding:$pd;
+
+	margin-left:nth($pd,1);
+
+	position:relative;border:$pd solid #ddd;width:810px;height:320px;overflow:hidden;
+
+
+	// 选择器嵌套
+	ul{
+		position:relative;
+		li{float:left;}
+		img{display:block;}
+	}
+
+
+	.page{
+		position: absolute;right:$pd;bottom:$pd;
+		
+		span{
+			display:inline-block;margin:0 5px;width:30px;height:30px;line-height:30px;overflow:hidden;text-align:center;background-color:#efefef;border-radius:50%;box-shadow:0 0 5px rgba(0,0,0,.5);
+			&.active{background-color:#f60;color:#fff;}
+		}
+		
+	}
+
+	.prev{position: absolute;width:60px;height:60px;line-height:60px;background:url(img/btn.gif) no-repeat;color:#fff;text-align:center;opacity: 0.6}
+	.next{}
+}
+
+
+
+
+
+.prev{left:-5px;top:0;bottom:0;margin:auto 0;}
+.next{right:-5px;top:50%;margin-top:-25px;background-position:0 -60px;}
