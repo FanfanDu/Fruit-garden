@@ -1,0 +1,127 @@
+.footer .logomessg {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer .logomessg li {
+  width: 240px;
+  height: 60px;
+  border-right: 1px solid #ddd;
+  text-align: center;
+  display: inline-block;
+  padding-right: 30px;
+  padding-left: 30px;
+  background-image: url(../img/head/icon.png);
+  background-repeat: no-repeat;
+}
+
+.footer .logomessg li .l1 {
+  background-position: 40px 0;
+}
+
+.footer .logomessg li .l2 {
+  background-position: 40px 60px;
+}
+
+.footer .logomessg li .l3 {
+  background-position: 40px 12px;
+}
+
+.footer .logomessg li .l4 {
+  background-position: 40px 180px;
+}
+
+.footer .logomessg li:last-child {
+  border-right: none;
+}
+
+.footer .footmessg {
+  border-bottom: 1px solid #ddd;
+  padding: 20px 0;
+  margin-bottom: 20px;
+  min-height: 160px;
+}
+
+.footer .footmessg .fleft {
+  width: 315px;
+  height: 145px;
+  text-align: center;
+  margin: 0 85px;
+  float: left;
+}
+
+.footer .footmessg .fleft .telnum {
+  margin: 5px 0;
+}
+
+.footer .footmessg .fleft .tel {
+  font-size: 18px;
+}
+
+.footer .footmessg .fleft .tel .service {
+  color: #999;
+}
+
+.footer .footmessg .app {
+  float: left;
+}
+
+.footer .footmessg .app li {
+  float: left;
+  margin-right: 45px;
+  width: 130px;
+  text-align: center;
+  color: #999;
+}
+
+.footer .footmessg .app li img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.footer .footmessg .guide {
+  float: left;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+.footer .footmessg .guide li {
+  margin-left: 15px;
+  float: left;
+}
+
+.footer .footmessg .guide li h4 {
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.footer .footmessg .guide li a {
+  font-size: 12px;
+  display: block;
+  line-height: 30px;
+  color: #999;
+}
+
+.footer .copyright {
+  text-align: center;
+}
+
+.footer .copyright .copy {
+  margin-bottom: 10px;
+  color: #999;
+}
+
+.footer .copyright .fruitName {
+  margin-bottom: 10px;
+  color: #64a131;
+}
+
+.footer .copyright .police a img {
+  display: inline-block;
+  width: 42px;
+  height: 42px;
+  text-align: center;
+  margin: 0 10px;
+}

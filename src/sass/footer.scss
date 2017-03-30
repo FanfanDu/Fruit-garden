@@ -1,0 +1,85 @@
+.footer{
+  .logomessg{
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+    text-align: center;
+    li{width:240px;
+      height: 60px;
+      border-right: 1px solid #ddd;
+      text-align: center;
+      display: inline-block;
+      padding-right: 30px;
+      padding-left: 30px;
+     background-image: url(../img/head/icon.png);background-repeat: no-repeat;
+      .l1{background-position: 40px 0;}
+      .l2{background-position: 40px 60px;}
+      .l3{background-position: 40px 12px;}
+      .l4{background-position: 40px 180px;}
+    }
+    li:last-child{border-right: none;}
+  }
+    .footmessg{
+      border-bottom: 1px solid #ddd;
+      padding: 20px 0;
+      margin-bottom: 20px;
+      min-height: 160px;
+      .fleft{
+        width: 315px;
+        height:145px;
+        text-align: center;
+        margin: 0 85px;
+        float: left;
+        //.logo{background: url(../img/head/logo.svg)no-repeat 0 0;height: 75px;height: 280px;}
+        .telnum{margin: 5px 0;}
+        .tel{font-size: 18px;
+        .service{color: #999;
+        }
+        }
+      }
+      .app{float: left;
+      li{
+        float: left;
+        margin-right: 45px;
+      width: 130px;
+      text-align: center;
+      color: #999;
+        img{width: 100%;margin-bottom: 10px;}
+      }
+      }
+      .guide{
+        float: left;
+        margin-bottom: 10px;
+        margin-left: 20px;
+        li{margin-left: 15px;
+        float: left;
+          h4{margin-bottom: 20px;
+          margin-top: 10px;}
+          a{font-size: 12px;
+          display: block;
+          line-height: 30px;
+          color: #999;}
+
+        }
+      }
+    }
+      .copyright{text-align: center;
+        .copy{margin-bottom: 10px;color: #999;}
+        .fruitName{margin-bottom: 10px; color: #64a131;}
+        .police{a{img{
+          display: inline-block;
+          width: 42px;
+          height: 42px;
+          text-align: center;
+          margin: 0 10px;
+       }}
+      }
+    }
+
+
+  //.logomessg{background-image: url(../img/head/icon.png);background-repeat: no-repeat;}
+  //.l1{background-position: 40px 0;}
+  //.l2{background-position: 40px 60px;}
+  //.l3{background-position: 40px 12px;}
+  //.l4{background-position: 40px 180px;}
+  }

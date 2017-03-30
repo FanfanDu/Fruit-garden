@@ -25,25 +25,23 @@ table{border-collapse: collapse;}
 textarea{resize: none;overflow: hidden;}
 body{
   font-family: '微软雅黑',sans-serif;
-  color: #333;
+  color: #555;
   font-size: 14px;
-  min-width: 1330px;
+  //min-width: 1330px;
 }
-.content{
-  width: 1105px;
+.wrap{
+  width: 1286px;
   margin: 0 auto;
 }
-.container{
-  width: 100%;
-}
-input{
-  border: none;
-  /*获取焦点时的外边框*/
-  outline: none;
-  /*清除移动端默认的表单样式:-webkit-appearance是用来改变按钮和其他控件的外观，使其外观类似于原生控件.
-通常我们可以在相应的元素上加上-webkit-appearance: none;来移除原生控件样式。*/
-  -webkit-appearance: none;
-}
+
+//input{
+//  //border: none;
+//  /*获取焦点时的外边框*/
+//  outline: none;
+//  /*清除移动端默认的表单样式:-webkit-appearance是用来改变按钮和其他控件的外观，使其外观类似于原生控件.
+//通常我们可以在相应的元素上加上-webkit-appearance: none;来移除原生控件样式。*/
+//  -webkit-appearance: none;
+//}
 .clear{
   zoom:1;
 }
