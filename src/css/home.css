@@ -1,0 +1,244 @@
+.home .wrap .cntentNav {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  padding: 20px 0;
+}
+
+.home .wrap .cntentNav .fruitLogo {
+  float: left;
+}
+
+.home .wrap .cntentNav .titlenav {
+  float: left;
+  padding-left: 40px;
+}
+
+.home .wrap .cntentNav .titlenav li {
+  position: relative;
+  float: left;
+  display: block;
+}
+
+.home .wrap .cntentNav .titlenav li a {
+  position: relative;
+  text-align: center;
+  padding: 0 25px;
+  margin: 20px 0;
+  color: #999;
+  border-right: 1px solid #eee;
+  display: block;
+  line-height: 20px;
+}
+
+.home .wrap .cntentNav .titlenav li a i {
+  display: inline-block;
+  position: absolute;
+  left: 20px;
+  bottom: -18px;
+  width: 83px;
+  border-bottom: 2px solid #64a131;
+}
+
+.home .wrap .cntentNav .titlenav .active a {
+  color: #64a131;
+}
+
+.home .wrap .cntentNav .titlenav li:last-child a {
+  border-right: none;
+}
+
+.home .wrap .cntentNav .titlenav a:hover {
+  background: #eee;
+}
+
+.home .wrap .cntentNav .navRight {
+  float: right;
+  margin-right: 20px;
+}
+
+.home .wrap .cntentNav .navRight .search {
+  position: relative;
+  float: left;
+  width: 180px;
+  margin-top: 20px;
+  font-size: 12px;
+  margin-right: 20px;
+}
+
+.home .wrap .cntentNav .navRight .search input {
+  width: 180px;
+  padding: 5px 3px;
+  border: none;
+}
+
+.home .wrap .cntentNav .navRight .search button {
+  position: absolute;
+  right: -10px;
+  top: -2px;
+  padding: 2px 6px;
+  border: none;
+  background: none;
+}
+
+.home .wrap .cntentNav .navRight .search .hotsearch {
+  width: 100%;
+  padding: 0 3px;
+  border-top: 1px solid #999;
+  color: #999;
+  line-height: 22px;
+}
+
+.home .wrap .cntentNav .navRight .search .hotsearch a {
+  display: inline-block;
+  padding-right: 5px;
+  color: #999;
+}
+
+.home .wrap .cntentNav .navRight .car {
+  float: right;
+  margin-top: 20px;
+}
+
+.banner {
+  overflow: hidden;
+  width: 100%;
+  height: 400px;
+}
+
+.banner ul {
+  position: relative;
+  float: left;
+  width: 8538px;
+}
+
+.banner ul li {
+  float: left;
+}
+
+.showAd .wrap .advertise {
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.showAd .wrap .advertise ul {
+  float: left;
+}
+
+.showAd .wrap .advertise ul li {
+  float: left;
+  margin-right: 26px;
+}
+
+.showAd .wrap .advertise ul li a {
+  display: block;
+  width: 300px;
+  height: 140px;
+}
+
+.showAd .wrap .advertise ul li a img {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+.showAd .wrap .advertise ul li:last-child {
+  margin-right: 0;
+}
+
+.showAd .wrap .fruit-kinds {
+  margin-bottom: 50px;
+}
+
+.showAd .wrap .fruit-kinds .headerline {
+  width: 1280px;
+  height: 67px;
+  line-height: 42px;
+  color: #333;
+  border-top: 1px solid #ccc;
+  margin: 0 auto;
+}
+
+.showAd .wrap .fruit-kinds .headerline .more {
+  float: right;
+  color: #333;
+}
+
+.showAd .wrap .fruit-kinds .headerline .textPic {
+  float: left;
+}
+
+.showAd .wrap .fruit-kinds .good-list ul {
+  width: 1290px;
+}
+
+.showAd .wrap .fruit-kinds .good-list ul li {
+  float: left;
+  position: relative;
+  width: 248px;
+  height: 305px;
+  margin: 0 5px 5px;
+  cursor: pointer;
+}
+
+.showAd .wrap .fruit-kinds .good-list ul li .s-img {
+  margin-bottom: 5px;
+  width: 100%;
+  height: auto;
+}
+
+.showAd .wrap .fruit-kinds .good-list ul li .s-img a img {
+  transition: transform 0.3s;
+  width: 100%;
+  height: 100%;
+}
+
+.showAd .wrap .fruit-kinds .good-list ul li .s-img img:hover {
+  transition: transform 0.3s initial;
+}
+
+.showAd .wrap .fruit-kinds .good-list ul li .s-info {
+  position: relative;
+  margin-bottom: 0;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+.showAd .wrap .fruit-kinds .good-list ul li .s-info .s-name {
+  padding-left: 3px;
+  max-width: 210px;
+}
+
+.showAd .wrap .fruit-kinds .good-list ul li .s-info .s-pice {
+  margin-left: 5px;
+  color: #999;
+}
+
+.showAd .wrap .fruit-kinds .good-list ul li .s-info .s-car {
+  position: absolute;
+  top: auto;
+  bottom: 5px;
+  right: 2px;
+  width: 34px;
+  height: 34px;
+  background: url(../img/head/icons.png) no-repeat -517px -243px;
+}
+
+.showAd .wrap .fruit-kinds .good-list ul li .list {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.showAd .wrap .fruit-kinds .good-list ul li .list .listSpan {
+  background: #ff5353;
+  line-height: 1;
+  color: #fff;
+  float: left;
+  padding: 6px 5px;
+  border-radius: 5px;
+}
+
+.showAd .wrap .ad {
+  margin-bottom: 40px;
+}

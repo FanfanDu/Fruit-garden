@@ -5,12 +5,14 @@
   box-shadow: 0 2px 5px rgba(230,230,230,0.7);
   display: block;
   background: #eee;
+
     .topnav{
       height: 30px;
       line-height: 30px;
 
       color: #999;
       font-size: 12px;
+
 
         .titleLeft{
           float: left;
@@ -20,6 +22,7 @@
             position: relative;
 
             }
+
             //.address:hover .hotCity{display: block}
             .hotCity{
               position: absolute;
@@ -145,6 +148,7 @@
           }
           }
           .announcement:hover{background:#fff; }
+          .phoneFruit:hover{background: #fff;}
 
           .phoneFruit{position: relative;
           float: left;
@@ -187,14 +191,19 @@
       }
 
     }
-  .icon{background:url(../img/head/img.png) no-repeat; }
+  .icon{background:url(../img/head/img.png) no-repeat; display:inline-block;}
  //_3{height:15px;width:15px;background-position: 0 0;}
  // _5{height:20px;width:20px;background-position: 0 -15px;}
  // _4{height:20px;width:20px;background-position: 0 -35px;}
  //  _2{height:20px;width:20px;background-position: 0 -55px;}
  //  _7{height:29px;width:29px;background-position: 0 -75px;}
-  .i1{height:20px;width:40px;background-position: -10px -55px;}
-  .i2{height:20px;width:40px;background-position: -10px 0;}
-  .i3{height:20px;width:40px;background-position: -10px -35px;}
-  .i4{height:20px;width:40px;background-position: -10px -15px;}
+  .i1{height:20px;width:20px;background-position: 0px -52px;}
+  .i2{height:20px;width:20px;background-position: 0 5px;}
+  .i3{height:20px;width:20px;background-position:  0px -32px;}
+  .i4{height:20px;width:20px;background-position: 0px -13px;}
+
+  .address{
+    cursor: pointer;
+  }
+  .address:hover .hotCity{display: block;}
 }

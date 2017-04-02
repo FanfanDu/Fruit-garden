@@ -1,0 +1,91 @@
+.container{
+  margin-bottom: 40px;
+  .logo{
+    width:100%;
+    height:100px;
+    //line-height:120px;
+    margin-top: 20px;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(230,230,230,0.7);
+    padding-left: 80px;
+  }
+  .member{
+    padding-top: 50px;
+    width: 1000px;
+    margin: 0 auto;
+    .ml{font-size: 20px;
+      color: #999;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #ccc;
+      margin-bottom: 35px;}
+    .memberLogo{
+      //margin-bottom: 40px;
+
+      .loginLeft{
+        width: 500px;
+        position: relative;
+        margin-bottom: 46px;
+        float: left;
+        .login{position: absolute;
+          bottom: 21px;
+          left: 175px;
+          a{padding: 12px 33px;
+            height: 48px;
+            line-height: 48px;
+            border-radius: 5px;
+            border: 1px solid #64a131;
+            text-align: center;
+            color: #64a131;}
+        }
+      }
+      .loginRight{
+       padding-left: 60px;
+        float:right;
+
+        .mage{
+          //background: #0000fe;
+          width: 410px;
+          height: 370px;
+          //margin-left: 80px;
+
+          .textbox{
+            border:1px solid #999;
+            width:300px;
+            height: 40px;
+            //margin-left: 120px;
+            padding-left:10px;
+          }
+
+          .label {
+            display: inline-block;
+            width: 80px;
+            text-align: center;
+            font-size: 16px;
+            color: #999;
+
+
+          }
+          input{margin-bottom: 15px}
+          .pass{float: right;text-decoration: underline;}
+          button{
+            width: 143px;
+            height: 38px;
+            line-height: 38px;
+            border-radius: 5px;
+            border: 0;
+            font-size: 22px;
+            background-color: #64a131;
+            text-align: center;
+            color: #fff;
+          }
+          .btnSubmit{margin-left: 100px;}
+          .memberBtn{border: 1px solid #64a131;
+            background-color: #f5ffed;
+            color: #7bae55;
+            float: right;}
+        }
+      }
+    }
+  }
+}

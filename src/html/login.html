@@ -3,21 +3,25 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
-	 <!-- <link rel="stylesheet" href="../css/header.css"/> -->
+	  <link rel="stylesheet" href="../css/header.css"/>
     <link rel="stylesheet" href="../css/common.css"/>
 	<link rel="stylesheet" href="../css/login.css"/>
-    <!-- <link rel="stylesheet" href="../css/footer.css"/> -->
+     <link rel="stylesheet" href="../css/footer.css"/>
     <script src="../js/jquery-3.1.1.js"></script>
+
+	<script src='../js/require.js' data-main='../js/config.js'></script>
     <script>
-    	$(function(){
+		$(function(){
 			$('#header').load('header.html');
 			$('#footer').load('footer.html');
 		});
+
     </script>
 </head>
 <body>
 	<div id="header"></div>
 	<div class="container clearfix">
+
 		<div class="logo clearfix">
 			<a href="#"><img width="300px" src="../img/head/logo.svg" alt=""></a>
 		</div>
@@ -46,7 +50,8 @@
 									<a href="#">快捷登录</a>
 								</div>
 								<br><br>
-								<button id="btnSubmit">登录</button>
+								<button class="btnSubmit">登录</button>
+								<button class="memberBtn">注册会员</button>
 							</div>
 						</form>
 					</div>

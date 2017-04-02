@@ -1,0 +1,207 @@
+.home{
+    .wrap{
+    .cntentNav{
+      position: relative;
+      width: 100%;
+      height:100px;
+      padding: 20px 0;
+      //background: #0000fe;
+      .fruitLogo{
+        float: left;
+      }
+      .titlenav{
+        float: left;
+        padding-left: 40px;
+        li{
+          position: relative;
+          float: left;
+          display: block;
+          a{
+            position: relative;
+            text-align: center;
+            padding: 0 25px;
+            margin: 20px 0;
+            color:#999;
+            border-right: 1px solid #eee;
+            display: block;
+            line-height: 20px;
+            i{
+              display: inline-block;
+              position: absolute;
+              left: 20px;
+              bottom: -18px;
+              width: 83px;
+              border-bottom: 2px solid #64a131;
+            }
+          }
+
+        }
+        .active{
+          a{color: #64a131;}
+        }
+        li:last-child a{border-right: none;}
+       a:hover{background: #eee;}
+      }
+      .navRight{
+        float: right;
+        margin-right: 20px;
+        .search{
+          position: relative;
+          float: left;
+          width: 180px;
+          margin-top: 20px;
+          font-size: 12px;
+          margin-right: 20px;
+          input{
+            width: 180px;
+            padding: 5px 3px;
+            border: none;
+          }
+          button{
+            position: absolute;
+            right: -10px;
+            top: -2px;
+            padding: 2px 6px;
+            border: none;
+            background: none;
+          }
+          .hotsearch{
+            width: 100%;
+            padding: 0 3px;
+            border-top: 1px solid #999;
+            color: #999;
+            line-height: 22px;
+            a{display: inline-block;
+            padding-right: 5px;
+            color: #999;}
+          }
+        }
+        .car{float: right;margin-top: 20px;}
+      }
+    }
+  }
+}
+  .banner{
+    overflow: hidden;
+    width: 100%;
+    height: 400px;
+    ul{
+      position: relative;
+      float: left;
+      width: 8538px;
+    li{float: left}}
+  }
+
+  .showAd{
+    .wrap{
+      .advertise{
+        margin-top: 10px;
+        margin-bottom: 50px;
+
+        ul{
+            float: left;
+          li{
+            float: left;
+            margin-right: 26px;
+            a{
+              display: block;
+              width: 300px;
+              height: 140px;
+              img{
+                display: inline-block;
+                width: 100%;
+                height: 100%;
+              }
+            }
+          }
+          li:last-child{margin-right: 0;}
+        }
+      }
+      .fruit-kinds{
+        margin-bottom: 50px;
+        .headerline{
+          width: 1280px;
+          height: 67px;
+          line-height: 42px;
+          color: #333;
+          border-top: 1px solid #ccc;
+          margin: 0 auto;
+          .more{
+            float: right;
+            color: #333;
+          }
+          .textPic{
+            float: left;
+          }
+        }
+          .good-list{
+            ul{
+              width: 1290px;
+              li{
+                float: left;
+                position: relative;
+                width: 248px;
+                height: 305px;
+                margin: 0 5px 5px;
+                cursor: pointer;
+                .s-img{
+                  margin-bottom: 5px;
+                  width: 100%;
+                  height: auto;
+                  a{
+                    img{
+                      transition: transform 0.3s;
+                      width: 100%;
+                      height: 100%;
+                    }
+
+                  }
+                   img:hover{transition: transform 0.3s initial;}
+                }
+                .s-info{
+                  position: relative;
+                  margin-bottom: 0;
+                  line-height: 24px;
+                  cursor: pointer;
+                  .s-name{
+                    padding-left: 3px;
+                    max-width: 210px;
+                  }
+                  .s-pice{
+                    margin-left: 5px;
+                    color: #999;
+                  }
+                  .s-car{
+                    position: absolute;
+                    top:auto;
+                    bottom:5px;
+                    right: 2px;
+                    width: 34px;
+                    height: 34px;
+                    background: url(../img/head/icons.png)no-repeat -517px -243px;
+                  }
+                }
+                .list{
+                  position: absolute;
+                  left: 0;
+                  top:0;
+                  .listSpan{
+                    background: #ff5353;
+                    line-height: 1;
+                    color: #fff;
+                    float: left;
+                    padding: 6px 5px;
+                    border-radius: 5px;
+                  }
+                }
+              }
+            }
+
+        }
+
+      }
+     .ad{
+       margin-bottom:40px ;
+     }
+    }
+  }

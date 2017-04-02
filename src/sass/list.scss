@@ -1,0 +1,247 @@
+.home{
+  border-bottom: 1px solid #f1f1f1;
+  box-shadow: 0 2px 5px rgba(230, 230, 230, 0.7);
+  .wrap{
+    .cntentNav{
+      position: relative;
+      width: 100%;
+      height:100px;
+      padding: 20px 0;
+      //background: #0000fe;
+      .fruitLogo{
+        float: left;
+      }
+      .titlenav{
+        float: left;
+        padding-left: 40px;
+        li{
+          position: relative;
+          float: left;
+          display: block;
+          a{
+            position: relative;
+            text-align: center;
+            padding: 0 25px;
+            margin: 20px 0;
+            color:#999;
+            border-right: 1px solid #eee;
+            display: block;
+            line-height: 20px;
+            i{
+              display: inline-block;
+              position: absolute;
+              left: 20px;
+              bottom: -18px;
+              width: 83px;
+              border-bottom: 2px solid #64a131;
+            }
+          }
+
+        }
+        .active{
+          a{color: #64a131;}
+        }
+        li:last-child a{border-right: none;}
+        a:hover{background: #eee;}
+      }
+      .navRight{
+        float: right;
+        margin-right: 20px;
+        .search{
+          position: relative;
+          float: left;
+          width: 180px;
+          margin-top: 20px;
+          font-size: 12px;
+          margin-right: 20px;
+          input{
+            width: 180px;
+            padding: 5px 3px;
+            border: none;
+          }
+          button{
+            position: absolute;
+            right: -10px;
+            top: -2px;
+            padding: 2px 6px;
+            border: none;
+            background: none;
+          }
+          .hotsearch{
+            width: 100%;
+            padding: 0 3px;
+            border-top: 1px solid #999;
+            color: #999;
+            line-height: 22px;
+            a{display: inline-block;
+              padding-right: 5px;
+              color: #999;}
+          }
+        }
+        .car{float: right;margin-top: 20px;}
+      }
+    }
+  }
+}
+.detailed{
+  .pull-left{float: left;}
+  .pull-right{float: right;}
+     .wrap{
+    .variety{
+      padding-top: 30px;
+      .species{
+        width: 100%;
+        padding: 10px 0;
+        border-bottom: 1px solid #ccc;
+        h4{
+          color: #999;
+          line-height: 24px;
+          margin-right: 20px;
+        }
+        .select{
+          width: 1230px;
+          .leftpart{
+            width:48px;
+            a{
+              line-height: 24px;
+              display: block;
+              background: #64a131;
+              color: #fff;
+              text-align: center;
+              padding: 0 10px;
+            }
+          }
+          .rightpace{
+            width: 1182px;
+
+            a{
+               height: 24px;
+                line-height: 24px;
+                //display: inline-block;
+              padding: 0 10px;
+
+            }
+          }
+          .last{background: #f0f0f0;}
+
+        }
+      }
+    }
+       .repertoire{
+         margin-top: 30px;
+         .leftpart{
+           width: 1000px;
+           margin-bottom: 100px;
+           ul{
+             li{
+               position: relative;
+               width: 244px;
+               margin: 0 4px 10px;
+               float: left;
+
+               .surround{
+                 float: left;
+                 .s-img{
+                   height: 244px;
+                   margin-bottom: 5px;
+                   position: relative;
+                   a{
+                     img{
+                       height: 100%;
+                       width: 100%;
+                     }
+                   }
+                   .list{
+                     position: absolute;
+                     left: 0;
+                     top:0;
+                     .listSpan{
+                       background: #ff5353;
+                       line-height: 1;
+                       color: #fff;
+                       float: left;
+                       padding: 6px 5px;
+                       border-radius: 5px;
+                     }
+                   }
+                 }
+                 .info{
+                   margin: 0 3px 5px 0;
+                   height: 24px;
+                   left: 24px;
+                   .pice{
+                     padding-right: 3px;
+                     color: #999;
+                   }
+                 }
+                 .axe{
+                   padding-top: 3px;
+                   .kg{
+                     width: 200px;
+                     height: 22px;
+                     line-height: 22px;
+                     padding-right: 3px;
+                     span{
+                       padding: 0 5px;
+                       color: #999;
+                       margin-right: 18px;
+                       height: 22px;
+                       line-height: 22px;
+                       text-align: center;
+                       border: 1px solid #ddd;
+                       cursor: pointer;
+                     }
+                     .car{
+                       background: url("../img/head/icons.png")no-repeat -518px -243px;
+                       position: absolute;
+                       top: -3px;
+                       right: 5px;
+                       width: 34px;
+                       height: 34px;
+                       cursor: pointer;
+                     }
+                   }
+                 }
+               }
+             }
+           }
+         }
+         .rightpart{
+           width: 260px;
+           //padding-left: 20px;
+           float: right;
+           h4{
+             color:#64a131;
+             line-height: 39px;
+             border-bottom: 1px solid #ccc;
+           }
+           ul{
+             li{
+               width: 260px;
+               height: 91px;
+               padding: 13px 0 8px 0;
+               border-bottom: 1px solid #ccc;
+               a{
+                 img{
+                   width: 70px;
+                   height: 70px;
+                 }
+                 .title{
+                   padding-left: 10px;
+                   h4{
+                     line-height: 20px;
+                     width: 150px;
+                   }
+                   p{line-height: 20px;
+                     color: #999;}
+                 }
+               }
+             }
+           }
+         }
+
+       }
+
+
+  }
+}

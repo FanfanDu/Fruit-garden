@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="../css/header.css"/>
+    <link rel="stylesheet" href="../css/common.css"/>
+    <link rel="stylesheet" href="../css/footer.css"/>
+    <link rel="stylesheet" href="../css/home.css"/>
+    <script src="../js/jquery-3.1.1.js"></script>
+
+    <!--<script src='../js/require.js' data-main='../js/config.js'></script>-->
+    <script>
+        $(function(){
+            $('#header').load('header.html');
+            $('#footer').load('footer.html');
+        });
+
+    </script>
+</head>
+<body>
+    <div id="header"></div>
+        <div class="home">
+            <div class="wrap">
+                <div class="cntentNav">
+                    <div class="fruitLogo">
+                        <a href="#"><img width="300px" src="../img/head/logo.svg" alt=""></a>
+                    </div>
+                    <ul class="titlenav">
+                        <li class="active">
+                            <a href="#"> 首页<br><span>Home</span> </a> <i></i>
+                        </li>
+                        <li> <a href="#"> 鲜果<br><span>Fruit</span></a> <i></i>
+                        </li>
+                        <li > <a href="#">  生鲜 <br><span>Fresh</span></a><i></i>
+                        </li>
+                        <li > <a href="#"> 礼品<br><span>Gift</span></a><i></i>
+                        </li>
+                        <li > <a href="#" >会员中心<br><span>VIP Club</span> </a> <i></i>
+                        </li>
+                    </ul>
+                    <div class="navRight">
+                        <div class="search">
+                            <input id="searchWord" type="search" placeholder="请输入关键字" value="奇异果"/>
+                            <input type="hidden" id="lastKeyword" />
+                            <button class="fdj">
+                                <i><img src="../img/head/search.png" alt=""/></i>
+                            </button>
+                            <div class="hotsearch">
+                                热门：
+                                <a href="#" >橙</a>
+                                <a href="#" >提子</a>
+                                <a href="#" >蓝莓</a>
+                                <a href="#" >苹果</a>
+                            </div>
+
+                        </div>
+                        <div class="car"><img src="../img/head/car.png" alt=""/></div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="banner">
+            <ul>
+                <li><a href="#"><img src="../img/head/banner1.jpg" alt=""/></a></li>
+                <li><a href="#"><img src="../img/head/banner2.jpg" alt=""/></a></li>
+                <li><a href="#"><img src="../img/head/banner3.jpg" alt=""/></a></li>
+                <li><a href="#"><img src="../img/head/banner4.jpg" alt=""/></a></li>
+                <li><a href="#"><img src="../img/head/banner5.jpg" alt=""/></a></li>
+                <li><a href="#"><img src="../img/head/banner6.jpg" alt=""/></a></li>
+            </ul>
+        </div>
+
+        <div class="showAd ">
+            <div class="wrap">
+                <div class="advertise clearfix">
+                    <ul >
+                        <li><a href="#"><img src="../img/head/show-ad1.jpg" alt=""/></a></li>
+                        <li><a href="#"><img src="../img/head/show-ad2.jpg" alt=""/></a></li>
+                        <li><a href="#"><img src="../img/head/show-ad3.jpg" alt=""/></a></li>
+                        <li><a href="#"><img src="../img/head/show-ad4.jpg" alt=""/></a></li>
+                    </ul>
+                </div>
+
+                <div class="fruit-kinds ">
+                    <div class="headerline clearfix">
+                        <a href="#"  class="more">更多 &gt;</a>
+
+                        <div class="textPic"><img src="../img/head/guan_t1.png"></div>
+                    </div>
+                    <div class="good-list clearfix">
+                        <ul class="clearfix">
+                            <li>
+                                <div class="s-img">
+                                    <a href="#">
+                                        <img src="../img/head/fruit1.jpg" alt=""/>
+                                    </a>
+                                </div>
+                                <div class="s-info">
+                                    <div class="s-name">
+                                        海南芒果（小台农）
+                                    </div>
+                                    <div class="s-pice">
+                                        ￥39.90/2斤
+                                    </div>
+                                    <div class="s-car"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="s-img">
+                                    <a href="#" >
+                                        <img src="../img/head/fruit2.jpg" alt=""/>
+                                    </a>
+                                </div>
+                                <div class="s-info">
+                                    <div class="s-name">
+                                        火山番茄(混色)
+                                    </div>
+                                    <div class="s-pice">
+                                        ￥39.00/380g/2盒
+                                    </div>
+                                    <div class="s-car"></div>
+                                </div>
+                                <div class="list">
+                                    <span class="listSpan" >第二件半价</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="s-img">
+                                    <a href="#" >
+                                        <img src="../img/head/fruit3.jpg" alt=""/>
+                                    </a>
+                                </div>
+                                <div class="s-info">
+                                    <div class="s-name">
+                                        红颊草莓
+                                    </div>
+                                    <div class="s-pice">
+                                        ￥49.90/2盒
+                                    </div>
+                                    <div class="s-car" ></div>
+                                </div>
+                                <div class="list">
+                                    <span class="listSpan" >买2盒送2盒</span>
+                                </div>
+                            </li>
+                            <li class="pro_list">
+                                <div class="s-img">
+                                    <a href="#" >
+                                        <img src="../img/head/fruit4.jpg" alt=""/>
+                                    </a>
+                                </div>
+                                <div class="s-info">
+                                    <div class="s-name">
+                                        优选新奇士美国红心脐橙
+                                    </div>
+                                    <div class="s-pice">
+                                        ￥58.00/6个
+                                    </div>
+                                    <div class="s-car"></div>
+                                </div>
+                            </li>
+                            <li class="pro_list">
+                                <div class="s-img">
+                                    <a href="#">
+                                        <img src="../img/head/fruit5.jpg" alt=""/>
+                                    </a>
+                                </div>
+                                <div class="s-info">
+                                    <div class="s-name">
+                                        台湾金钻树上红凤梨
+                                    </div>
+                                    <div class="s-pice">
+                                        ￥49.00/1个
+                                    </div>
+                                    <div class="s-car" ></div>
+                                </div>
+                                <div class="list">
+                                    <span class="listSpan" >第二件7折</span>
+                                </div>
+                            </li>
+                            <li class="pro_list">
+                                <div class="s-img">
+                                    <a href="#" >
+                                        <img src="../img/head/fruit6.jpg" alt=""/>
+                                    </a>
+                                </div>
+                                <div class="s-info">
+                                    <div class="s-name">
+                                        泰国山竹
+                                    </div>
+                                    <div class="s-pice">
+                                        ￥78.00/2斤
+                                    </div>
+                                    <div class="s-car" ></div>
+                                </div>
+                            </li>
+                            <li class="pro_list">
+                                <div class="s-img">
+                                    <a href=#">
+                                        <img src="../img/head/fruit7.jpg" alt=""/>
+                                    </a>
+                                </div>
+                                <div class="s-info">
+                                    <div class="s-name">
+                                        雪莓瑰草莓
+                                    </div>
+                                    <div class="s-pice">
+                                        ￥79.00/240g
+                                    </div>
+                                    <div class="s-car" ></div>
+                                </div>
+                                <div class="list">
+                                    <span class="listSpan" >买1送1</span>
+                                </div>
+                            </li>
+                            <li class="pro_list">
+                                <div class="s-img">
+                                    <a href="#" >
+                                        <img src="../img/head/fruit8.jpg" alt=""/>
+                                    </a>
+                                </div>
+                                <div class="s-info">
+                                    <div class="s-name">
+                                        越南青皮香芒果
+                                    </div>
+                                    <div class="s-pice">
+                                        ￥49.90/4斤
+                                    </div>
+                                    <div class="s-car" ></div>
+                                </div>
+                            </li>
+                            <li class="pro_list" >
+                                <div class="s-img">
+                                    <a href="#" >
+                                        <img src="../img/head/fruit9.jpg" alt=""/>
+                                    </a>
+                                </div>
+                                <div class="s-info">
+                                    <div class="s-name">
+                                        海南黑金刚莲雾
+                                    </div>
+                                    <div class="s-pice">
+                                        ￥38.00/1斤
+                                    </div>
+                                    <div class="s-car"></div>
+                                </div>
+                            </li>
+                            <li class="pro_list">
+                                <div class="s-img">
+                                    <a href="#" >
+                                        <img src="../img/head/fruit10.jpg" alt=""/>
+                                    </a>
+                                </div>
+                                <div class="s-info">
+                                    <div class="s-name">
+                                        荷兰青啤梨
+                                    </div>
+                                    <div class="s-pice">
+                                        ￥39.90/4个
+                                    </div>
+                                    <div class="s-car"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="fruit-kinds ">
+                    <div class="headerline clearfix">
+                        <a href="#"  class="more">更多 &gt;</a>
+
+                        <div class="textPic"><img src="../img/head/guan_t2.png"></div>
+                    </div>
+                    <div class="good-list clearfix">
+                        <ul class="clearfix">
+                            <li>
+                                <div class="s-img">
+                                    <a href="#">
+                                        <img src="../img/head/fruit-w9.jpg" alt=""/>
+                                    </a>
+                                </div>
+                                <div class="s-info">
+                                    <div class="s-name">
+                                        Driscoll's小巨人蓝莓
+                                    </div>
+                                    <div class="s-pice">
+                                        ￥99.00/2盒
+                                    </div>
+                                    <div class="s-car"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="s-img">
+                                    <a href="#" >
+                                        <img src="../img/head/fruit-w1.jpg" alt=""/>
+                                    </a>
+                                </div>
+                                <div class="s-info">
+                                    <div class="s-name">
+                                        美国红玫瑰苹果
+                                    </div>
+                                    <div class="s-pice">
+                                        ￥68.00/6个
+                                    </div>
+                                    <div class="s-car"></div>
+                                </div>
+
+                            </li>
+                            <li>
+                                <div class="s-img">
+                                    <a href="#" >
+                                        <img src="../img/head/fruit-w2.jpg" alt=""/>
+                                    </a>
+                                </div>
+                                <div class="s-info">
+                                    <div class="s-name">
+                                        美国佛罗里达葡萄柚
+                                    </div>
+                                    <div class="s-pice">
+                                        ￥39.90/6个
+                                    </div>
+                                    <div class="s-car" ></div>
+                                </div>
+
+                            </li>
+                            <li class="pro_list">
+                                <div class="s-img">
+                                    <a href="#" >
+                                        <img src="../img/head/fruit-w3.jpg" alt=""/>
+                                    </a>
+                                </div>
+                                <div class="s-info">
+                                    <div class="s-name">
+                                        南非玫瑰香黑提
+                                    </div>
+                                    <div class="s-pice">
+                                        ￥39.80/1斤
+                                    </div>
+                                    <div class="s-car"></div>
+                                </div>
+                                <div class="list">
+                                    <span class="listSpan" >送以色列蜜桔2个</span>
+                                </div>
+                            </li>
+                            <li class="pro_list">
+                                <div class="s-img">
+                                    <a href="#">
+                                        <img src="../img/head/fruit-w4.jpg" alt=""/>
+                                    </a>
+                                </div>
+                                <div class="s-info">
+                                    <div class="s-name">
+                                        马来西亚冷冻榴莲红虾D175
+                                    </div>
+                                    <div class="s-pice">
+                                        ￥338.00/400g
+                                    </div>
+                                    <div class="s-car" ></div>
+                                </div>
+                                <div class="list">
+                                    <span class="listSpan" >19.9换购</span>
+                                </div>
+                            </li>
+                            <li class="pro_list">
+                                <div class="s-img">
+                                    <a href="#" >
+                                        <img src="../img/head/fruit-w5.jpg" alt=""/>
+                                    </a>
+                                </div>
+                                <div class="s-info">
+                                    <div class="s-name">
+                                        越南红心火龙果
+                                    </div>
+                                    <div class="s-pice">
+                                        ￥49.90/2斤
+                                    </div>
+                                    <div class="s-car" ></div>
+                                </div>
+                            </li>
+                            <li class="pro_list">
+                                <div class="s-img">
+                                    <a href=#">
+                                        <img src="../img/head/fruit-w6.jpg" alt=""/>
+                                    </a>
+                                </div>
+                                <div class="s-info">
+                                    <div class="s-name">
+                                        新奇士美国美人柑
+                                    </div>
+                                    <div class="s-pice">
+                                        ￥39.00/2斤
+                                    </div>
+                                    <div class="s-car" ></div>
+                                </div>
+
+                            </li>
+                            <li class="pro_list">
+                                <div class="s-img">
+                                    <a href="#" >
+                                        <img src="../img/head/fruit-w7.jpg" alt=""/>
+                                    </a>
+                                </div>
+                                <div class="s-info">
+                                    <div class="s-name">
+                                        新奇士美国红宝石蜜柚
+                                    </div>
+                                    <div class="s-pice">
+                                        ￥39.00/1个
+                                    </div>
+                                    <div class="s-car" ></div>
+                                </div>
+                            </li>
+                            <li class="pro_list" >
+                                <div class="s-img">
+                                    <a href="#" >
+                                        <img src="../img/head/fruit-w8.jpg" alt=""/>
+                                    </a>
+                                </div>
+                                <div class="s-info">
+                                    <div class="s-name">
+                                        越南火龙果
+                                    </div>
+                                    <div class="s-pice">
+                                        ￥49.90/5斤
+                                    </div>
+                                    <div class="s-car"></div>
+                                </div>
+                            </li>
+                            <li class="pro_list">
+                                <div class="s-img">
+                                    <a href="#" >
+                                        <img src="../img/head/fruit-w10.jpg" alt=""/>
+                                    </a>
+                                </div>
+                                <div class="s-info">
+                                    <div class="s-name">
+                                        荷兰青啤梨
+                                    </div>
+                                    <div class="s-pice">
+                                        ￥39.90/4个
+                                    </div>
+                                    <div class="s-car"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="fruit-kinds ">
+                    <div class="headerline clearfix">
+                        <a href="#"  class="more">更多 &gt;</a>
+
+                        <div class="textPic"><img src="../img/head/guan_t3.png"></div>
+                    </div>
+                    <div class="good-list clearfix">
+                        <ul class="clearfix">
+                            <li>
+                                <div class="s-img">
+                                    <a href="#">
+                                        <img src="../img/head/clearfix1.jpg" alt=""/>
+                                    </a>
+                                </div>
+                                <div class="s-info">
+                                    <div class="s-name">
+                                        兰特全脂巴氏杀菌鲜牛奶
+                                    </div>
+                                    <div class="s-pice">
+                                        ￥99.00/2L
+                                    </div>
+                                    <div class="s-car"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="s-img">
+                                    <a href="#" >
+                                        <img src="../img/head/clearfix2.jpg" alt=""/>
+                                    </a>
+                                </div>
+                                <div class="s-info">
+                                    <div class="s-name">
+                                        pelagos南美白对虾（原装进口）
+                                    </div>
+                                    <div class="s-pice">
+                                        ￥59.00/500g
+                                    </div>
+                                    <div class="s-car"></div>
+                                </div>
+                                <div class="list">
+                                    <span class="listSpan" >第二件省20</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="s-img">
+                                    <a href="#" >
+                                        <img src="../img/head/clearfix3.jpg" alt=""/>
+                                    </a>
+                                </div>
+                                <div class="s-info">
+                                    <div class="s-name">
+                                        新西兰银鳕鱼（冻南极犬牙鱼）
+                                    </div>
+                                    <div class="s-pice">
+                                        ￥218.00/400g
+                                    </div>
+                                    <div class="s-car" ></div>
+                                </div>
+
+                            </li>
+                            <li class="pro_list">
+                                <div class="s-img">
+                                    <a href="#" >
+                                        <img src="../img/head/clearfix4.jpg" alt=""/>
+                                    </a>
+                                </div>
+                                <div class="s-info">
+                                    <div class="s-name">
+                                        明治保加利亚LB81酸奶(清甜原味)
+                                    </div>
+                                    <div class="s-pice">
+                                        ￥21.90/400g
+                                    </div>
+                                    <div class="s-car"></div>
+                                </div>
+                                <div class="list">
+                                    <span class="listSpan" >新品</span>
+                                </div>
+                            </li>
+                            <li class="pro_list">
+                                <div class="s-img">
+                                    <a href="#">
+                                        <img src="../img/head/clearfix5.jpg" alt=""/>
+                                    </a>
+                                </div>
+                                <div class="s-info">
+                                    <div class="s-name">
+                                        明治醇壹高温杀菌乳
+                                    </div>
+                                    <div class="s-pice">
+                                        ￥23.90/950ml
+                                    </div>
+                                    <div class="s-car" ></div>
+                                </div>
+
+                            </li>
+                            <li class="pro_list">
+                                <div class="s-img">
+                                    <a href="#" >
+                                        <img src="../img/head/clearfix6.jpg" alt=""/>
+                                    </a>
+                                </div>
+                                <div class="s-info">
+                                    <div class="s-name">
+                                        唯品纯牛奶
+                                    </div>
+                                    <div class="s-pice">
+                                        ￥25.80/950ml
+                                    </div>
+                                    <div class="s-car" ></div>
+                                </div>
+                                <div class="list">
+                                    <span class="listSpan" >第二件9.9</span>
+                                </div>
+                            </li>
+                            <li class="pro_list">
+                                <div class="s-img">
+                                    <a href=#">
+                                        <img src="../img/head/clearfix7.jpg" alt=""/>
+                                    </a>
+                                </div>
+                                <div class="s-info">
+                                    <div class="s-name">
+                                        精选云南鲜银耳
+                                    </div>
+                                    <div class="s-pice">
+                                        ￥45.00/3朵
+                                    </div>
+                                    <div class="s-car" ></div>
+                                </div>
+                                <div class="list">
+                                    <span class="listSpan" >11.9换购</span>
+                                </div>
+                            </li>
+                            <li class="pro_list">
+                                <div class="s-img">
+                                    <a href="#" >
+                                        <img src="../img/head/clearfix8.jpg" alt=""/>
+                                    </a>
+                                </div>
+                                <div class="s-info">
+                                    <div class="s-name">
+                                        阿根廷红虾（巨无霸 L1级）
+                                    </div>
+                                    <div class="s-pice">
+                                        ￥198.00/2000g
+                                    </div>
+                                    <div class="s-car" ></div>
+                                </div>
+                            </li>
+                            <li class="pro_list" >
+                                <div class="s-img">
+                                    <a href="#" >
+                                        <img src="../img/head/clearfix9.jpg" alt=""/>
+                                    </a>
+                                </div>
+                                <div class="s-info">
+                                    <div class="s-name">
+                                        越南巴沙鱼柳
+                                    </div>
+                                    <div class="s-pice">
+                                        ￥23.80/300-400g
+                                    </div>
+                                    <div class="s-car"></div>
+                                </div>
+                                <div class="list">
+                                    <span class="listSpan" >第二件9.9</span>
+                                </div>
+                            </li>
+                            <li class="pro_list">
+                                <div class="s-img">
+                                    <a href="#" >
+                                        <img src="../img/head/clearfix10.jpg" alt=""/>
+                                    </a>
+                                </div>
+                                <div class="s-info">
+                                    <div class="s-name">
+                                        荷兰青啤梨
+                                    </div>
+                                    <div class="s-pice">
+                                        ￥39.90/4个
+                                    </div>
+                                    <div class="s-car"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="ad">
+                    <a href="#"><img src="../img/head/ad.jpg" alt=""/></a>
+                </div>
+                <div class="fruit-kinds ">
+                    <div class="headerline clearfix">
+                        <a href="#"  class="more">更多 &gt;</a>
+
+                        <div class="textPic"><img src="../img/head/guan_t4.png"></div>
+                    </div>
+                    <div class="good-list clearfix">
+                        <ul class="clearfix">
+                            <li>
+                                <div class="s-img">
+                                    <a href="#">
+                                        <img src="../img/head/fruit-z1.jpg" alt=""/>
+                                    </a>
+                                </div>
+                                <div class="s-info">
+                                    <div class="s-name">
+                                        爱的回报礼盒
+                                    </div>
+                                    <div class="s-pice">
+                                        ￥188.00/1盒
+                                    </div>
+                                    <div class="s-car"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="s-img">
+                                    <a href="#" >
+                                        <img src="../img/head/fruit-z2.jpg" alt=""/>
+                                    </a>
+                                </div>
+                                <div class="s-info">
+                                    <div class="s-name">
+                                        心扉鲜果礼盒
+                                    </div>
+                                    <div class="s-pice">
+                                        ￥108.00/1盒
+                                    </div>
+                                    <div class="s-car"></div>
+                                </div>
+
+                            </li>
+                            <li>
+                                <div class="s-img">
+                                    <a href="#" >
+                                        <img src="../img/head/fruit-z3.jpg" alt=""/>
+                                    </a>
+                                </div>
+                                <div class="s-info">
+                                    <div class="s-name">
+                                        阳光普照B礼盒
+                                    </div>
+                                    <div class="s-pice">
+                                        ￥118.00/1盒
+                                    </div>
+                                    <div class="s-car" ></div>
+                                </div>
+
+                            </li>
+                            <li class="pro_list">
+                                <div class="s-img">
+                                    <a href="#" >
+                                        <img src="../img/head/fruit-z4.jpg" alt=""/>
+                                    </a>
+                                </div>
+                                <div class="s-info">
+                                    <div class="s-name">
+                                        深情厚意水果礼篮
+                                    </div>
+                                    <div class="s-pice">
+                                        ￥580.00/1盒
+                                    </div>
+                                    <div class="s-car"></div>
+                                </div>
+
+                            </li>
+                            <li class="pro_list">
+                                <div class="s-img">
+                                    <a href="#">
+                                        <img src="../img/head/fruit-z5.jpg" alt=""/>
+                                    </a>
+                                </div>
+                                <div class="s-info">
+                                    <div class="s-name">
+                                        暖人心《美》礼盒
+                                    </div>
+                                    <div class="s-pice">
+                                        ￥168.00/1盒
+                                    </div>
+                                    <div class="s-car" ></div>
+                                </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    <div id="footer"></div>
+</body>
+</html>

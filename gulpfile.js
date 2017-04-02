@@ -32,3 +32,24 @@ gulp.task('compileSass',function(){
 gulp.task('watchSass',function(){
 	gulp.watch('./src/sass/*.scss',['compileSass']);
 })
+
+
+
+//引入browser-sync
+// var browserSync = require('browser-sync');
+
+// // 使用
+// // 创建任务
+// gulp.task('server',function(){
+// 	browserSync({
+// 		启动服务器
+// 		server:{
+// 			baseDir:'./src/'
+// 		},
+
+// 		// 服务器代理
+// 		// proxy:'http://localhost/fruit/',
+
+// 		// 监听文件修改，自动刷新页面
+// 		files:['./src/**/*.html','./src/css/*.css','./src/**/*.php']
+// 	});
