@@ -59,6 +59,10 @@
   height: 230px;
 }
 
+.container .member .memberLogo .loginRight .message p {
+  text-align: center;
+}
+
 .container .member .memberLogo .loginRight .message .textbox {
   border: 1px solid #999;
   width: 300px;

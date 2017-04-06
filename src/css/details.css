@@ -437,12 +437,12 @@
 
 .typepage .wrap .particulars .product-info .price-info .send .btn-group .dropdown-menu .dropdowm-close {
   position: absolute;
-  z-index: 2;
+  z-index: 111;
   top: -10px;
   left: 340px;
   width: 21px;
   height: 21px;
-  background: url(../img/details/delete.png) no-repeat;
+  background: url("../img/details/delete.png") no-repeat;
   cursor: pointer;
 }
 

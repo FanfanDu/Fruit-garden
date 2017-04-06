@@ -247,7 +247,8 @@
               //  width: 20px; height: 13px;}
               //}
             }
-            .dropdown-menu{position: absolute;
+            .dropdown-menu{
+              position: absolute;
             top:32px;
             left: -45px;
             border: 1px solid #ddd;
@@ -331,14 +332,16 @@
                 }
                 .active{display: block;}
                 }
-              .dropdowm-close{position: absolute;
-              z-index: 2;
+              .dropdowm-close{
+                position: absolute;
+              z-index:111;
               top: -10px;
               left: 340px;
               width: 21px;
               height: 21px;
-              background: url(../img/details/delete.png)no-repeat;
-              cursor: pointer;}
+              background: url('../img/details/delete.png')no-repeat;
+              cursor: pointer;
+              }
               }
             }
           .have{color: #64a131;

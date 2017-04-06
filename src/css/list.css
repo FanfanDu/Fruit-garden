@@ -171,7 +171,7 @@
 
 .detailed .wrap .repertoire .leftpart ul li {
   position: relative;
-  width: 244px;
+  width: 242px;
   margin: 0 4px 10px;
   float: left;
 }
@@ -247,6 +247,10 @@
   width: 34px;
   height: 34px;
   cursor: pointer;
+}
+
+.detailed .wrap .repertoire .leftpart ul li:hover {
+  box-shadow: 0 0 10px 2px #ccc;
 }
 
 .detailed .wrap .repertoire .rightpart {

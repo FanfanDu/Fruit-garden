@@ -40,5 +40,35 @@
             </div>
         </div>
     </div>
+    <div class="top" id="totop">
+        <a href="#"  class="kaj"></a>
+        <a href="#" class="kf"></a>
+        <a href="#" class="gotop"></a>
+    </div>
 </div>
+    <script>
+        // 给.totop绑定点击事件
+        $('.gotop').click(function(){
+            var scrollTop = window.scrollY;
+
+            // 缓冲运动
+            // 一开始速度很快，然后慢下来，直到停止
+            var timer = setInterval(function() {
+                // 缓冲运动的关键：动态计算速度
+                // 这个速度会根据滚动距离大小而改变
+                var speed = parseInt(scrollTop / 10);
+            })
+
+            // 在速度小于5时清除定时器
+            if(speed < 5){
+                scrollTop = speed = 0;
+                clearInterval(timer);
+            }
+
+            scrollTop = scrollTop - speed;console.log(speed,scrollTop);
+
+            // 改变滚动条滚动过的距离
+            window.scrollTo(0,scrollTop);
+        },30);
+    </script>
 </footer>

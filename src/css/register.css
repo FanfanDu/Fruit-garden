@@ -59,6 +59,11 @@
   height: 370px;
 }
 
+.container .member .memberLogo .loginRight .mage .tips {
+  text-align: center;
+  color: red;
+}
+
 .container .member .memberLogo .loginRight .mage .textbox {
   border: 1px solid #999;
   width: 300px;

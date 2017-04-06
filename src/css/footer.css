@@ -125,3 +125,20 @@
   text-align: center;
   margin: 0 10px;
 }
+
+.footer .top {
+  position: fixed;
+  right: 0;
+  bottom: 2px;
+  background: url("../img/head/kf.png") no-repeat;
+  width: 35px;
+  height: 109px;
+  z-index: 99999;
+}
+
+.footer .top a {
+  display: block;
+  width: 35px;
+  height: 35px;
+  margin-bottom: 1px;
+}

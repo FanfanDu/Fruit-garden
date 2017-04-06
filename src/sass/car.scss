@@ -1,0 +1,327 @@
+.car{
+  margin-bottom: 40px;
+
+  .pull-left{float: left;}
+  .pull-right{float: right;}
+  .logo{
+    width:100%;
+    height:100px;
+    //line-height:120px;
+    margin-top: 20px;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(230,230,230,0.7);
+    //padding-left: 80px;
+  }
+  .icon{
+    margin-right: 30px;
+    margin-top: 10px;
+    width: 352px;
+    height: 42px;
+    background: url("../img/head/icons.png")no-repeat -39px -887px;
+    li{
+      position: relative;
+      left: -10px;
+      margin-top: 7px;
+      font-size: 20px;
+      text-align: center;
+      span{color: #fff;}
+      p{color: #64a131;margin-top: 12px;font-size: 12px;}
+    }
+    .num2{
+
+      left: 80px;
+    }
+    .num3{
+      left: 165px;
+    }
+  }
+  .shopcar {
+    width: 1000px;
+    margin: 0 auto;
+    .carthing {
+      margin-top: 50px;
+      .mycar {
+        background: url("../img/head/icons.png") no-repeat -525px -330px;
+        height: 25px;
+        padding-left: 22px;
+        p {
+          font-size: 20px;
+          line-height: 27px;
+          margin-left: 14px;
+        }
+        a {
+          color: #64a131;
+          padding-top: 10px;
+        }
+      }
+    }
+    .subject {
+      margin-top: 15px;
+      .carth {
+        height: 50px;
+        line-height: 50px;
+        padding-left: 14px;
+        border: 1px solid #ccc;
+        background-color: #f1f1f1;
+        color: #999;
+        span {
+          float: left;
+        }
+
+        .goods {
+          margin-left: 180px;
+
+        }
+        .standard {
+          margin-left: 230px;
+        }
+        .price {
+          margin-left: 75px;
+        }
+        .num {
+          margin-left: 60px;
+        }
+        .sum {
+          margin-left: 93px;
+        }
+        .operation {
+          margin-left: 80px;
+        }
+      }
+      .commodity {
+        border: 1px solid #ccc;
+        border-bottom: none;
+        border-top: none;
+        ul li {
+          .cartbox {
+            height: 130px;
+            border-bottom: 1px solid #ccc;
+            .list {
+              position: absolute;
+              left: 0;
+              top: 0;
+              .listSpan {
+                background: #ff5353;
+                line-height: 1;
+                color: #fff;
+                float: left;
+                padding: 6px 5px;
+                border-radius: 5px;
+              }
+            }
+            p {
+              margin: 15px 0 15px 15px;
+            }
+            .cimg {
+              width: 110px;
+              height: 110px;
+              margin: 10px 0 10px 65px;
+              position: relative;
+              a img {
+                width: 100%;
+                height: 100%;
+              }
+            }
+            .cname {
+              width: 260px;
+
+              a {
+                display: block;
+                height: 42px;
+              }
+            }
+            .kg {
+              width: 62px;
+            }
+            .cprice {
+              width: 160px;
+              text-align: center;
+              p {
+                color: #64a131;
+                font-weight: bold;
+              }
+            }
+            .number {
+              border: 1px solid #ddd;
+              width: 93px;
+              height: 24px;
+              margin-top: 15px;
+              .num {
+                width: 29px;
+                height: 24px;
+                line-height: 24px;
+                text-align: center;
+                background: #eee;
+                color: #a6a6a6;
+                cursor: pointer;
+              }
+              input {
+                width: 35px;
+                height: 22px;
+                line-height: 24px;
+                text-align: center;
+                outline: none;
+                background: #fff;
+                border: 0;
+              }
+
+            }
+            .csum {
+              width: 120px;
+              text-align: center;
+              p {
+                color: #64a131;
+                font-weight: bold;
+              }
+            }
+            .del {
+              width: 110px;
+              text-align: center;
+              cursor: pointer;
+            }
+          }
+        }
+        .redemption {
+          .sale {
+            height: 48px;
+            border-bottom: 1px solid #ccc;
+            background-color: #fff9ed;
+            .exchange {
+              padding-left: 50px;
+              padding-top: 14px;
+              p {
+                width: 60px;
+                height: 20px;
+                line-height: 20px;
+                text-align: center;
+                color: #fff;
+                background: #64a131;
+                border-radius: 5px;
+              }
+            }
+            .thing {
+              padding: 14px 17px 0;
+              a {
+                color: #64a131;
+              }
+            }
+          }
+        }
+      }
+      .account {
+        border: 1px solid #64a131;
+        height: 50px;
+        line-height: 50px;
+        background-color: #f5ffed;
+        padding-left: 14px;
+        margin-top: 25px;
+        .msg {
+          span {
+            float: left;
+            margin-left: 15px;
+            color: #999;
+            em {
+              color: #64a131;
+              font-weight: bold;
+              font-style: normal;
+            }
+          }
+          .all {
+            margin-left: 15px;
+            color: #64a131;
+            font-weight: bold;
+            font-size: 22px;
+          }
+          .gopay {
+            float: left;
+            width: 150px;
+            height: 50px;
+            margin-left: 15px;
+            text-align: center;
+            font-size: 20px;
+            background-color: #64a131;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+    .record {
+      position: relative;
+      .looked {
+        border-bottom: 1px solid #64a131;
+      }
+
+      .menu li {
+        height: 32px;
+        line-height: 32px;
+        padding: 15px 0;
+        font-size: 16px;
+        cursor: pointer;
+        p {
+          border-right: 1px solid #ccc;
+          padding-right: 10px;
+        }
+        .interest {
+          border-right:0;
+          padding-left: 10px;
+        }
+      }
+      .history {
+        height: 266px;
+        border: 1px solid #ddd;
+        .cover {
+          .fruit {
+            overflow: hidden;
+            width: 920px;
+            height: 264px;
+            margin: 0 auto;
+            ul {
+              width: 920px;
+
+              li {
+                float: left;
+                margin: 22px 9px;
+                width: 166px;
+                a {
+                  display: block;
+                  img {
+                    width: 100%
+                  }
+                  .history-name {
+                    padding: 0 3px;
+                    margin-top: 15px;
+                    overflow: hidden;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                  }
+                  .history-price {
+                    padding: 0 3px;
+                    color: #b0b0b0;
+                    margin-bottom: 3px;
+                  }
+                }
+              }
+            }
+          }
+          .prev {
+            position: absolute;
+            top: 193px;
+            left: 12px;
+            background: url("../img/head/icons.png") no-repeat -127px -155px;
+            width: 12px;
+            height: 22px;
+            cursor: pointer;
+          }
+          .next {
+            position: absolute;
+            top: 193px;
+            right: 20px;
+            background: url("../img/head/icons.png") no-repeat -127px -225px;
+            width: 12px;
+            height: 22px;
+          }
+        }
+      }
+    }
+  }
+}

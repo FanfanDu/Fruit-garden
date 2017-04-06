@@ -84,12 +84,33 @@
   .banner{
     overflow: hidden;
     width: 100%;
-    height: 400px;
+    //height: 400px;
+    position: relative;
     ul{
       position: relative;
       float: left;
-      width: 8538px;
-    li{float: left}}
+      //width: 8538px;
+    li{float: left;
+    //a img{display: block;height: 100%;}
+    }}
+    .page{
+      position:absolute;
+      bottom:10px;
+      left:50%;
+      margin-left:-64px;
+      span{
+        width:10px;
+        height:10px;
+        background:#ccc;
+        border-radius:50%;
+        display:inline-block;
+        margin-left:15px;
+
+      }
+      .active{
+        background:#64a131;
+      }
+    }
   }
 
   .showAd{
@@ -144,13 +165,14 @@
                 height: 305px;
                 margin: 0 5px 5px;
                 cursor: pointer;
+                img:hover{transition: transform 0.3s;}
                 .s-img{
                   margin-bottom: 5px;
                   width: 100%;
                   height: auto;
                   a{
                     img{
-                      transition: transform 0.3s;
+
                       width: 100%;
                       height: 100%;
                     }
@@ -195,6 +217,7 @@
                   }
                 }
               }
+              li:hover{box-shadow:0 0 10px 2px #ccc; }
             }
 
         }

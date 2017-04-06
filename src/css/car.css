@@ -1,0 +1,385 @@
+.car {
+  margin-bottom: 40px;
+}
+
+.car .pull-left {
+  float: left;
+}
+
+.car .pull-right {
+  float: right;
+}
+
+.car .logo {
+  width: 100%;
+  height: 100px;
+  margin-top: 20px;
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0 2px 5px rgba(230, 230, 230, 0.7);
+}
+
+.car .icon {
+  margin-right: 30px;
+  margin-top: 10px;
+  width: 352px;
+  height: 42px;
+  background: url("../img/head/icons.png") no-repeat -39px -887px;
+}
+
+.car .icon li {
+  position: relative;
+  left: -10px;
+  margin-top: 7px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.car .icon li span {
+  color: #fff;
+}
+
+.car .icon li p {
+  color: #64a131;
+  margin-top: 12px;
+  font-size: 12px;
+}
+
+.car .icon .num2 {
+  left: 80px;
+}
+
+.car .icon .num3 {
+  left: 165px;
+}
+
+.car .shopcar {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.car .shopcar .carthing {
+  margin-top: 50px;
+}
+
+.car .shopcar .carthing .mycar {
+  background: url("../img/head/icons.png") no-repeat -525px -330px;
+  height: 25px;
+  padding-left: 22px;
+}
+
+.car .shopcar .carthing .mycar p {
+  font-size: 20px;
+  line-height: 27px;
+  margin-left: 14px;
+}
+
+.car .shopcar .carthing .mycar a {
+  color: #64a131;
+  padding-top: 10px;
+}
+
+.car .shopcar .subject {
+  margin-top: 15px;
+}
+
+.car .shopcar .subject .carth {
+  height: 50px;
+  line-height: 50px;
+  padding-left: 14px;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  color: #999;
+}
+
+.car .shopcar .subject .carth span {
+  float: left;
+}
+
+.car .shopcar .subject .carth .goods {
+  margin-left: 180px;
+}
+
+.car .shopcar .subject .carth .standard {
+  margin-left: 230px;
+}
+
+.car .shopcar .subject .carth .price {
+  margin-left: 75px;
+}
+
+.car .shopcar .subject .carth .num {
+  margin-left: 60px;
+}
+
+.car .shopcar .subject .carth .sum {
+  margin-left: 93px;
+}
+
+.car .shopcar .subject .carth .operation {
+  margin-left: 80px;
+}
+
+.car .shopcar .subject .commodity {
+  border: 1px solid #ccc;
+  border-bottom: none;
+  border-top: none;
+}
+
+.car .shopcar .subject .commodity ul li .cartbox {
+  height: 130px;
+  border-bottom: 1px solid #ccc;
+}
+
+.car .shopcar .subject .commodity ul li .cartbox .list {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.car .shopcar .subject .commodity ul li .cartbox .list .listSpan {
+  background: #ff5353;
+  line-height: 1;
+  color: #fff;
+  float: left;
+  padding: 6px 5px;
+  border-radius: 5px;
+}
+
+.car .shopcar .subject .commodity ul li .cartbox p {
+  margin: 15px 0 15px 15px;
+}
+
+.car .shopcar .subject .commodity ul li .cartbox .cimg {
+  width: 110px;
+  height: 110px;
+  margin: 10px 0 10px 65px;
+  position: relative;
+}
+
+.car .shopcar .subject .commodity ul li .cartbox .cimg a img {
+  width: 100%;
+  height: 100%;
+}
+
+.car .shopcar .subject .commodity ul li .cartbox .cname {
+  width: 260px;
+}
+
+.car .shopcar .subject .commodity ul li .cartbox .cname a {
+  display: block;
+  height: 42px;
+}
+
+.car .shopcar .subject .commodity ul li .cartbox .kg {
+  width: 62px;
+}
+
+.car .shopcar .subject .commodity ul li .cartbox .cprice {
+  width: 160px;
+  text-align: center;
+}
+
+.car .shopcar .subject .commodity ul li .cartbox .cprice p {
+  color: #64a131;
+  font-weight: bold;
+}
+
+.car .shopcar .subject .commodity ul li .cartbox .number {
+  border: 1px solid #ddd;
+  width: 93px;
+  height: 24px;
+  margin-top: 15px;
+}
+
+.car .shopcar .subject .commodity ul li .cartbox .number .num {
+  width: 29px;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+  background: #eee;
+  color: #a6a6a6;
+  cursor: pointer;
+}
+
+.car .shopcar .subject .commodity ul li .cartbox .number input {
+  width: 35px;
+  height: 22px;
+  line-height: 24px;
+  text-align: center;
+  outline: none;
+  background: #fff;
+  border: 0;
+}
+
+.car .shopcar .subject .commodity ul li .cartbox .csum {
+  width: 120px;
+  text-align: center;
+}
+
+.car .shopcar .subject .commodity ul li .cartbox .csum p {
+  color: #64a131;
+  font-weight: bold;
+}
+
+.car .shopcar .subject .commodity ul li .cartbox .del {
+  width: 110px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.car .shopcar .subject .commodity .redemption .sale {
+  height: 48px;
+  border-bottom: 1px solid #ccc;
+  background-color: #fff9ed;
+}
+
+.car .shopcar .subject .commodity .redemption .sale .exchange {
+  padding-left: 50px;
+  padding-top: 14px;
+}
+
+.car .shopcar .subject .commodity .redemption .sale .exchange p {
+  width: 60px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  color: #fff;
+  background: #64a131;
+  border-radius: 5px;
+}
+
+.car .shopcar .subject .commodity .redemption .sale .thing {
+  padding: 14px 17px 0;
+}
+
+.car .shopcar .subject .commodity .redemption .sale .thing a {
+  color: #64a131;
+}
+
+.car .shopcar .subject .account {
+  border: 1px solid #64a131;
+  height: 50px;
+  line-height: 50px;
+  background-color: #f5ffed;
+  padding-left: 14px;
+  margin-top: 25px;
+}
+
+.car .shopcar .subject .account .msg span {
+  float: left;
+  margin-left: 15px;
+  color: #999;
+}
+
+.car .shopcar .subject .account .msg span em {
+  color: #64a131;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.car .shopcar .subject .account .msg .all {
+  margin-left: 15px;
+  color: #64a131;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.car .shopcar .subject .account .msg .gopay {
+  float: left;
+  width: 150px;
+  height: 50px;
+  margin-left: 15px;
+  text-align: center;
+  font-size: 20px;
+  background-color: #64a131;
+  cursor: pointer;
+}
+
+.car .shopcar .record {
+  position: relative;
+}
+
+.car .shopcar .record .looked {
+  border-bottom: 1px solid #64a131;
+}
+
+.car .shopcar .record .menu li {
+  height: 32px;
+  line-height: 32px;
+  padding: 15px 0;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.car .shopcar .record .menu li p {
+  border-right: 1px solid #ccc;
+  padding-right: 10px;
+}
+
+.car .shopcar .record .menu li .interest {
+  border-right: 0;
+  padding-left: 10px;
+}
+
+.car .shopcar .record .history {
+  height: 266px;
+  border: 1px solid #ddd;
+}
+
+.car .shopcar .record .history .cover .fruit {
+  overflow: hidden;
+  width: 920px;
+  height: 264px;
+  margin: 0 auto;
+}
+
+.car .shopcar .record .history .cover .fruit ul {
+  width: 920px;
+}
+
+.car .shopcar .record .history .cover .fruit ul li {
+  float: left;
+  margin: 22px 9px;
+  width: 166px;
+}
+
+.car .shopcar .record .history .cover .fruit ul li a {
+  display: block;
+}
+
+.car .shopcar .record .history .cover .fruit ul li a img {
+  width: 100%;
+}
+
+.car .shopcar .record .history .cover .fruit ul li a .history-name {
+  padding: 0 3px;
+  margin-top: 15px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.car .shopcar .record .history .cover .fruit ul li a .history-price {
+  padding: 0 3px;
+  color: #b0b0b0;
+  margin-bottom: 3px;
+}
+
+.car .shopcar .record .history .cover .prev {
+  position: absolute;
+  top: 193px;
+  left: 12px;
+  background: url("../img/head/icons.png") no-repeat -127px -155px;
+  width: 12px;
+  height: 22px;
+  cursor: pointer;
+}
+
+.car .shopcar .record .history .cover .next {
+  position: absolute;
+  top: 193px;
+  right: 20px;
+  background: url("../img/head/icons.png") no-repeat -127px -225px;
+  width: 12px;
+  height: 22px;
+}

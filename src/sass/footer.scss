@@ -76,7 +76,21 @@
       }
     }
 
-
+  .top{
+    position: fixed;
+    right: 0;
+    bottom: 2px;
+    background: url("../img/head/kf.png")no-repeat;
+    width: 35px;
+    height: 109px;
+    z-index: 99999;
+    a{
+      display: block;
+      width: 35px;
+      height: 35px;
+      margin-bottom: 1px;
+    }
+  }
   //.logomessg{background-image: url(../img/head/icon.png);background-repeat: no-repeat;}
   //.l1{background-position: 40px 0;}
   //.l2{background-position: 40px 60px;}

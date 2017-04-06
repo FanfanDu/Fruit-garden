@@ -1,0 +1,98 @@
+section {
+  display: none;
+}
+
+section .pull-left {
+  float: left;
+}
+
+section .cover {
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.5;
+  position: fixed;
+  top: 0;
+  z-index: 99999;
+}
+
+section .cart {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 524px;
+  height: 288px;
+  margin: -144px 0 0 -262px;
+  border: 8px solid #000;
+  border-color: rgba(0, 0, 0, 0.5);
+  z-index: 99999;
+}
+
+section .cart .ctop {
+  height: 40px;
+  padding-right: 20px;
+  background: #eaeaea;
+}
+
+section .cart .ctop .del {
+  float: right;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+section .cart .ccontent {
+  background: #fff;
+}
+
+section .cart .ccontent .ctitle {
+  padding: 28px 90px 0;
+  margin-bottom: 22px;
+}
+
+section .cart .ccontent .ctitle .ok {
+  width: 60px;
+  height: 68px;
+  background: url("../img/head/icons.png") no-repeat -8px -247px;
+}
+
+section .cart .ccontent .ctitle .add {
+  font-size: 30px;
+  padding-left: 20px;
+  margin: 13px 0;
+}
+
+section .cart .ccontent .total {
+  font-size: 18px;
+  color: #999;
+  padding-left: 4px;
+  text-align: center;
+}
+
+section .cart .ccontent .total em {
+  color: #f6ab00;
+}
+
+section .cart .ccontent .buy {
+  padding: 33px 0;
+  width: 100%;
+}
+
+section .cart .ccontent .buy button {
+  width: 143px;
+  height: 38px;
+  line-height: 38px;
+  border-radius: 5px;
+  border: 0;
+  font-size: 16px;
+  background-color: #64a131;
+  text-align: center;
+  color: #fff;
+}
+
+section .cart .ccontent .buy .shop {
+  border: 1px solid #64a131;
+  background-color: #f5ffed;
+  color: #7bae55;
+  margin-right: 8px;
+  margin-left: 110px;
+}

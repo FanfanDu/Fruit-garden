@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,13 +7,12 @@
     <link rel="stylesheet" href="../css/common.css"/>
     <link rel="stylesheet" href="../css/footer.css"/>
     <link rel="stylesheet" href="../css/details.css"/>
-    <script src="../js/jquery-3.1.1.js"></script>
+    <link rel="stylesheet" href="../css/cartup.css"/>
 
-    <!--<script src='../js/require.js' data-main='../js/config.js'></script>-->
+    <script src='../js/require.js' data-main='../js/config.js'></script>
     <script>
-        $(function(){
-            $('#header').load('header.html');
-            $('#footer').load('footer.html');
+        requirejs(['details'],function(details){
+            details();
         });
 
     </script>
@@ -138,7 +137,7 @@
                                     </div>
                             </div>
 
-                                <input type="hidden" id="send_to" name="send_to" value="106092" />
+
 
                                 <div class="send clearfix">
                                     <h4 >配送至</h4>
@@ -153,7 +152,7 @@
                                                 <div class="dropdown-nav">
                                                     <ul class="tab">
                                                         <li id="province_item"><a class="hover" href="#"><em>请选择</em><i></i></a></li>
-                                                        <li id="city_item" ><a href="#"><em>请选择</em><i></i></a></li>
+                                                        <li id="city_item" style="display: none;"><a href="#"><em>请选择</em><i></i></a></li>
                                                     </ul>
                                                 </div>
                                                 <div class="fd-area active" id="stock_province_item">
@@ -500,6 +499,8 @@
                 </div>
             </div>
      </div>
+    <div id="section"></div>
     <div id="footer"></div>
 </body>
+
 </html>
