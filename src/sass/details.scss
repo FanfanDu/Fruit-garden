@@ -252,7 +252,7 @@
             top:32px;
             left: -45px;
             border: 1px solid #ddd;
-            width: 352px;
+            width: 350px;
             padding: 15px;
             box-shadow: 0 0 5px #ddd;
             z-index: 999999;
@@ -319,7 +319,7 @@
                       padding: 3px 0 3px 15px;
                       clear: none;
                       float: left;
-                      width: 80px;
+                      width: 70px;
                       a{
                         float: left;
                         padding: 2px 4px;
@@ -332,11 +332,11 @@
                 }
                 .active{display: block;}
                 }
-              .dropdowm-close{
+              .dropdown-close{
                 position: absolute;
-              z-index:111;
+              z-index:9999999;
               top: -10px;
-              left: 340px;
+              left: 365px;
               width: 21px;
               height: 21px;
               background: url('../img/details/delete.png')no-repeat;
@@ -475,7 +475,7 @@
               right: 0;
               bottom: -168px;
               width: 358px;
-              height: 168px;
+              height: 136px;
               background: #fff;
               border:1px solid #ccc;
               border-right: 0;
@@ -492,7 +492,8 @@
                 width: 175px;
                 padding-left: 14px;
                 h4{
-                  line-height: 20px;
+                  color: #333;
+                  line-height: 26px;
                   text-align: left;
                 }
                 p{

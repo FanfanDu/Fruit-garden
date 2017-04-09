@@ -7,8 +7,13 @@ requirejs.config({
 	paths:{
 		'jquery':'jquery-3.1.1',
 		'list':'list',
-		"top":"top"
-		
+		"top":"top",
+		"details":'details',
+		'home':'home',
+		'register':'register',
+		'login':'login',
+		'common':'common',
+		'car':'car'
 	}
 	//shim:{
 	//	'ajax':{
@@ -17,14 +22,26 @@ requirejs.config({
 	//	'gdszoom':['jquery']
 	//}
 })
- require(['jquery','list'],function($,list){
+ require(['jquery','list','details','home','register','login','car'],function($,list,details,home,register,login,car){
 	 var path = location.pathname;
 	 console.log(path)
 	if(path == '/fruitday/src/html/list.html'){
 		 //商品列表页面
 		list.init();
-	 }else if(path == '/fruitday/src/html/index.html'){
+	 }else if(path == '/fruitday/src/html/details.html'){
+		details();
+	}else if(path == '/fruitday/src/html/home.html'){
+		home();
+	}
+	else if(path == '/fruitday/src/html/index.html'){
 
+	}
+	else if(path == '/fruitday/src/html/register.html'){
+		register();
+	}else if(path == '/fruitday/src/html/login.html'){
+		login();
+	}else if(path == '/fruitday/src/html/car.html'){
+		car();
 	}
  })
 

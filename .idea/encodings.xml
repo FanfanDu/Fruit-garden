@@ -3,6 +3,8 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/src/html/cartup.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/html/header.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/js/details.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/js/home.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/js/list.js" charset="UTF-8" />
   </component>
 </project>

@@ -37,6 +37,8 @@
               overflow: auto;
               display: none;
 
+              a:hover{color: #64a131;}
+
               h4{color: #999;
                 padding: 10px 5px;
                 margin: 0;
@@ -73,9 +75,9 @@
                       padding: 5px 20px;
                       line-height: 24px;
                       border-top: 1px dashed #eee;
-                        display: none;
-                      }
 
+                      }
+                        display: none;
                   }
                 }
               }
@@ -147,8 +149,8 @@
             }
           }
           }
-          .announcement:hover{background:#fff; }
-          .phoneFruit:hover{background: #fff;}
+          //.announcement:hover{background:#fff; }
+          //.phoneFruit:hover{background: #fff;}
 
           .phoneFruit{position: relative;
           float: left;
@@ -205,5 +207,5 @@
   .address{
     cursor: pointer;
   }
-  .address:hover .hotCity{display: block;}
+//  .address:hover .hotCity{display: block;}
 }

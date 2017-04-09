@@ -1,10 +1,11 @@
 <?php 
-	class Goods{
+    class Goods{
         public $goodsId;
         public $goodsName;
         public $goodsPrice;
         public $goodsImg;
         public $goodNumber;
+        public $goodsCar;
     };
     $con = new mysqli('127.0.0.1','root','','fruit garden');
     $con->query("set names utf8"); //设置编码为utf8 显示中文
@@ -19,7 +20,8 @@
                     $goods->goodsName = $row["name"];
                     $goods->goodsPrice = $row["price"];
                     $goods->goodsImg = $row["src"];
-                   	$goods->goodNumber = $row["number"];
+                    $goods->goodNumber = $row["number"];
+                    $goods->goodsCar = $row["car"];
                     array_push($arr, $goods);
                 }
 
@@ -30,17 +32,16 @@
     }else{
         array_push($arr, "连接数据库失败");
     };
-	 if(isset($_REQUEST['callback'])){
-	        // 表示是一个jsonp的请求
-	        //找到callback 的函数名称
-	        $callback = $_REQUEST['callback'];
-	        //调用callback的函数
-	        $str = json_encode($arr);
-	        print_r($callback."('$str')");
-	    }else{
-	    	print_r(222);
-	        array_push($arr, "连接数据库失败");
-	        $str = json_encode($arr);
-	        print_r( $str );
-	    }
+     if(isset($_REQUEST['callback'])){
+            // 表示是一个jsonp的请求
+            //找到callback 的函数名称
+            $callback = $_REQUEST['callback'];
+            //调用callback的函数
+            $str = json_encode($arr);
+            print_r($callback."('".$str."')");
+        }else{
+            array_push($arr, "连接数据库失败");
+            $str = json_encode($arr);
+            print_r( $str );
+        }
 ?>

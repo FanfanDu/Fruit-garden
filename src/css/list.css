@@ -172,8 +172,9 @@
 .detailed .wrap .repertoire .leftpart ul li {
   position: relative;
   width: 242px;
-  margin: 0 4px 10px;
+  margin: 0 4px 30px;
   float: left;
+  overflow: hidden;
 }
 
 .detailed .wrap .repertoire .leftpart ul li .surround {
@@ -184,11 +185,18 @@
   height: 244px;
   margin-bottom: 5px;
   position: relative;
+  width: 100%;
+  overflow: hidden;
 }
 
 .detailed .wrap .repertoire .leftpart ul li .surround .s-img a img {
+  transition: transform 0.3s;
   height: 100%;
   width: 100%;
+}
+
+.detailed .wrap .repertoire .leftpart ul li .surround .s-img a img:hover {
+  transform: scale(1.1, 1.1);
 }
 
 .detailed .wrap .repertoire .leftpart ul li .surround .s-img .list {
@@ -206,10 +214,14 @@
   border-radius: 5px;
 }
 
-.detailed .wrap .repertoire .leftpart ul li .surround .info {
-  margin: 0 3px 5px 0;
+.detailed .wrap .repertoire .leftpart ul li .surround .info .fname {
+  margin: 0 3px 5px 10px;
   height: 24px;
   left: 24px;
+  width: 150px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .detailed .wrap .repertoire .leftpart ul li .surround .info .pice {
@@ -219,6 +231,8 @@
 
 .detailed .wrap .repertoire .leftpart ul li .surround .axe {
   padding-top: 3px;
+  padding-bottom: 10px;
+  margin-left: 10px;
 }
 
 .detailed .wrap .repertoire .leftpart ul li .surround .axe .kg {
@@ -241,6 +255,15 @@
 
 .detailed .wrap .repertoire .leftpart ul li .surround .axe .kg .car {
   background: url("../img/head/icons.png") no-repeat -518px -243px;
+  position: absolute;
+  top: -3px;
+  right: 5px;
+  width: 34px;
+  height: 34px;
+  cursor: pointer;
+}
+
+.detailed .wrap .repertoire .leftpart ul li .surround .axe .kg .buy-car {
   position: absolute;
   top: -3px;
   right: 5px;

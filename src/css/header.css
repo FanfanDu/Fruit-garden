@@ -38,6 +38,10 @@
   display: none;
 }
 
+.header .topnav .titleLeft .hotCity a:hover {
+  color: #64a131;
+}
+
 .header .topnav .titleLeft .hotCity h4 {
   color: #999;
   padding: 10px 5px;
@@ -78,12 +82,15 @@
   float: right;
 }
 
+.header .topnav .titleLeft .hotCity .change li .citysel {
+  display: none;
+}
+
 .header .topnav .titleLeft .hotCity .change li .citysel a {
   display: block;
   padding: 5px 20px;
   line-height: 24px;
   border-top: 1px dashed #eee;
-  display: none;
 }
 
 .header .topnav .yxd {
@@ -178,14 +185,6 @@
 
 .header .topnav .titleRight ul .announcement .fruitAnnouncement .titleMore a {
   color: #64a131;
-}
-
-.header .topnav .titleRight ul .announcement:hover {
-  background: #fff;
-}
-
-.header .topnav .titleRight ul .phoneFruit:hover {
-  background: #fff;
 }
 
 .header .topnav .titleRight ul .phoneFruit {
@@ -288,8 +287,4 @@
 
 .header .address {
   cursor: pointer;
-}
-
-.header .address:hover .hotCity {
-  display: block;
 }

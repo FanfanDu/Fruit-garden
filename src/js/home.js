@@ -2,25 +2,33 @@ define(['jquery'],function($){
     return function(){
         $('#header').load('header.html');
         $('#footer').load('footer.html');
-        $('#section').load('cartup.html');
+        $('#section').load('cartup.html',function() {
+            $('.cart .del').click(function () {
+                $(".cover").css({
+                    opacity:0
+                })
+                $("section").hide();
+                $('.s-car').css({"backgroundPosition":"-517px -243px"})
+            })
+        });
         var times;
         var idx=0;
         var $banner=$('.banner');
         var len=$banner.children('ul').children().length;
         var width=$banner.width();
         //var height=$banner.height();
-        //ÉèÖÃÍ¼Æ¬¿í¶È ul¿í¶È
+        //Ã‰Ã¨Ã–ÃƒÃÂ¼Ã†Â¬Â¿Ã­Â¶Ãˆ ulÂ¿Ã­Â¶Ãˆ
         $banner.find('img').css({'width':width});
         $banner.children('ul').css({'width':len*width});
 
-        //ÉèÖÃÍ¼Æ¬¿í¶È ul¸ß¶È
+        //Ã‰Ã¨Ã–ÃƒÃÂ¼Ã†Â¬Â¿Ã­Â¶Ãˆ ulÂ¸ÃŸÂ¶Ãˆ
         //$banner.find('img').css({'height':height});
         //$banner.children('ul').css({'height':height});
 
-        //ÂÖ²¥Í¼
+        //Ã‚Ã–Â²Â¥ÃÂ¼
         times=setInterval(autoplay,3000);
 
-        //Ìí¼Ó·ÖÒ³
+        //ÃŒÃ­Â¼Ã“Â·Ã–Ã’Â³
         var $page=$('<div/>');
         $page.addClass('page');
         $('.banner').append($page);
@@ -45,12 +53,21 @@ define(['jquery'],function($){
             $('.banner').children('ul').animate({left:-idx*width});
         }
 
-        $('.good-list').on('click','.s-car',function(){console.log(6666)
-                $('section').show();
+        $('.good-list').on('click','.s-car',function(){
+            //console.log($(this))
+            //$(this). animate({
+            //    "backgroundPosition":"-519px -291px"
+            //},'slow');
+            $(this).css({
+                "backgroundPosition":"-514px -291px"
+            })
+            console.log( $("section"))
+            $("section").show();
+            $(".cover").css({
+                opacity:0.5
+            })
         });
-        $('.cart').click(function(){
-            console.log(11111)
-        })
+
 
 
     }

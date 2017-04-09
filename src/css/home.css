@@ -198,21 +198,25 @@
   height: 305px;
   margin: 0 5px 5px;
   cursor: pointer;
-}
-
-.showAd .wrap .fruit-kinds .good-list ul li img:hover {
-  transition: transform 0.3s;
+  overflow: hidden;
 }
 
 .showAd .wrap .fruit-kinds .good-list ul li .s-img {
   margin-bottom: 5px;
   width: 100%;
   height: auto;
+  overflow: hidden;
 }
 
 .showAd .wrap .fruit-kinds .good-list ul li .s-img a img {
+  transition: transform 0.3s;
   width: 100%;
   height: 100%;
+  overflow: hidden;
+}
+
+.showAd .wrap .fruit-kinds .good-list ul li .s-img a img:hover {
+  transform: scale(1.1);
 }
 
 .showAd .wrap .fruit-kinds .good-list ul li .s-img img:hover {

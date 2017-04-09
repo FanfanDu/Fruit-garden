@@ -1,7 +1,7 @@
 define(['jquery'],function($){
 	// return一个函数/对象
 	return function(){
-		$(function(){
+		// $(function(){
 			$('#header').load('header.html');
 			$('#footer').load('footer.html');
 			var username;
@@ -21,6 +21,7 @@ define(['jquery'],function($){
 				//用户名和密码不能为空
 				$('#phone').blur(function(){
 					username=$('#phone').val();
+					console.log(username)
 					if(username.trim()==''){
 						$('#phone').next('p').show();
 					}else{
@@ -29,6 +30,7 @@ define(['jquery'],function($){
 				});
 				$('#pasw').blur(function(){
 					pasw=$('#pasw').val();
+					console.log(pasw)
 					if(username.trim()==''){
 						$('#pasw').next('p').show();
 					}else{
@@ -36,10 +38,11 @@ define(['jquery'],function($){
 					}
 				});
 			//提交验证用户名和密码
-			$('#btnSubmit').on('click',function(e){
+			$(':submit').on('click',function(e){
 				username=$('#phone').val();
 				pasw=$('#pasw').val();
-				e.stopPropagation();
+				console.log()
+				e.stopPropagation(username,pasw);
 				//发送请求，查看用户名和密码是否正确
 				if(username.trim()!=''&&username.trim()!=''){
 					$.ajax({
@@ -70,6 +73,6 @@ define(['jquery'],function($){
 			});
 	
 			
-		});
+		// });
 	}
 });

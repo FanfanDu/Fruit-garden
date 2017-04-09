@@ -8,19 +8,19 @@
 	<link rel="stylesheet" href="../css/login.css"/>
      <link rel="stylesheet" href="../css/footer.css"/>
 	<script src='../js/require.js' data-main='../js/config.js'></script>
-    <script>
+<!--     <script>
 	requirejs(['login'],function(login){
 				login();
 			});
 
-    </script>
+    </script> -->
 </head>
 <body>
 	<div id="header"></div>
 	<div class="container clearfix">
 
 		<div class="logo clearfix">
-			<a href="#"><img width="300px" src="../img/head/logo.svg" alt=""></a>
+			<a href="home.html"><img width="300px" src="../img/head/logo.svg" alt=""></a>
 		</div>
 		<div class="wrap">
 			
@@ -30,7 +30,7 @@
 					<div class="loginLeft">
 						<img src="../img/huiyuan.jpg" alt="">
 						<div class="login">
-							<a href="#">会员注册></a>
+							<a href="register.html">会员注册></a>
 						</div>
 					</div>
 					<div class="loginRight clearfix">
@@ -50,8 +50,8 @@
 									<a href="#">快捷登录</a>
 								</div>
 								<br><br>
-								<button class="btnSubmit">登录</button>
-								<button class="memberBtn">注册会员</button>
+								<button type="submit" class="btnSubmit">登录</button>
+								<button class="memberBtn"><a href="register.html">注册会员</a></button>
 							</div>
 
 					</div>
