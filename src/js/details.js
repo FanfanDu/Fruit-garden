@@ -4,10 +4,14 @@ define(['jquery',"top",'common'],function($,top,common){
 
         $('#footer').load('footer.html');
         $('#section').load('cartup.html',function() {
-                    $('.cart .del').click(function () {
-                        $("section").hide();
-                    })
+            $('.cart .del').click(function () {
+                $(".cover").css({
+                    opacity:0
                 })
+                $("section").hide();
+                
+            })
+        });
         var str=location.href;
         var num=str.indexOf('?');
         var $info=$('.product-info');
@@ -35,12 +39,13 @@ define(['jquery',"top",'common'],function($,top,common){
                                 
                                 
                             })	;
+                            //创建第一张默认图片
                             $('.big li img').attr('src',"../img/details/" + indexId + "-1-" + 2 + ".jpg");
                             $('.focus').on('mouseenter','.small li img',function(){
                                 console.log($(this).attr("src"))
                                 $('.big li img').attr('src',$(this).attr("src"));
                             })
-
+                            //减少数量
                             $('#redu').click(function(){
                                 var num = $('#all').val();
                                 if(num > 1){
@@ -48,6 +53,7 @@ define(['jquery',"top",'common'],function($,top,common){
                                     $('#all').val(num)
                                 }
                             })
+                            //增加数量
                             $('#add').click(function(){
                                
                                 var num = $('#all').val();
@@ -59,6 +65,7 @@ define(['jquery',"top",'common'],function($,top,common){
                                 $('.fruitright').find('.frnum').text('x'+$('#all').val())
 
                             })
+                            //让名字。价格，数量随数据库改变
                             $('.name').find('h3').text(item.name);
                             $('.box').find('span').text(item.price);
                             $('.weight').find('span').text(item.number);
@@ -87,6 +94,7 @@ define(['jquery',"top",'common'],function($,top,common){
                             // });
                             console.log($(".addGoods"))
                             $('.addGoods').click(function(e) {
+                                //阻止a连接自动跳转
                                 e.preventDefault();
                                 
                                //  var sum=$('.total .num').html();
@@ -150,7 +158,10 @@ define(['jquery',"top",'common'],function($,top,common){
                             });
 
                             $('.shop').click(function(){
-                                $('section').hide();
+                               $("section").show();
+                                    $(".cover").css({
+                                        opacity:0.5
+                                    })
                             });
                             // resolve(item.uid);
                             //$info.children('.name').children('h2').text(item.name);
@@ -173,16 +184,25 @@ define(['jquery',"top",'common'],function($,top,common){
         //    console.log(88888);
         //    $('.dropdown-menu').show();
         //});
-
+        //地区列表显示
         var timer;
         $('.btn-group').on('mouseenter',function(){
             clearTimeout(timer);
             $('.dropdown-menu').show();
+
         }).on('mouseleave',function() {
             timer = setTimeout(function() {
                 $('.dropdown-menu').hide();
             },50);
         })
+        //将地区选入值写入
+        $('.fd-area ').on('click','a',function(e){
+            // console.log($('.fd-area a'))
+            // console.log($('.btn-default .send-area'))
+            //阻止a连接自动跳转
+             e.preventDefault();
+                    $('.df').html($(this).html());
+                })
         // $('.price-info').on('click','.fr-add',function(){
         //     $('section').show();
         // });

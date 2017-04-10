@@ -69,6 +69,8 @@ define(['jquery',"top","common"],function($,top,common){
 				cnum = $(item).find("p").closest('li').find('.sumTotal').val();
 				$(item).closest('li').find(".csum p").html("￥"+(cnum - 0) * (cprice - 0))
 			})
+
+			
 			//计算价格
 			function calu(){
 

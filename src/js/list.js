@@ -6,7 +6,15 @@ define(['jquery',"top"],function($,top){
                 //尾部
                 $('#footer').load('footer.html');
                 //购物车遮罩
-                $('#section').load('cartup.html');
+                   $('#section').load('cartup.html',function() {
+                        $('.cart .del').click(function () {
+                            $(".cover").css({
+                                opacity:0
+                            })
+                            $("section").hide();
+                            $('.s-car').css({"backgroundPosition":"-517px -243px"})
+                        })
+                    });
 
                 function List(){
                     this.listAjax(function(data){

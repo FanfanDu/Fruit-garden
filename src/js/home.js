@@ -1,6 +1,6 @@
-define(['jquery'],function($){
+define(['jquery',"top"],function($,top){
     return function(){
-        $('#header').load('header.html');
+        top.init();
         $('#footer').load('footer.html');
         $('#section').load('cartup.html',function() {
             $('.cart .del').click(function () {

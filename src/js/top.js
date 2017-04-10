@@ -50,7 +50,7 @@ define(["jquery"], function ($) {
                 //    $(this).siblings(".citysel").animate({height: 'toggle', opacity: 'toggle'});
                 //});
                 $(' .provicesel').click(function(){
-                    $(this).siblings($(".citysel")).is(':hidden') ? "收起" : "展开";
+                    $(this).siblings($(".citysel")).is(':hidden') ? "鏀惰捣" : "灞曞紑";
                      $(".citysel").slideToggle();
                 })
 

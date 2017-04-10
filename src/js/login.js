@@ -1,8 +1,8 @@
-define(['jquery'],function($){
+define(['jquery',"top"],function($,top){
 	// return一个函数/对象
 	return function(){
 		// $(function(){
-			$('#header').load('header.html');
+			top.init();
 			$('#footer').load('footer.html');
 			var username;
 			var pasw;
